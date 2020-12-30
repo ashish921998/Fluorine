@@ -1,0 +1,137 @@
+#mainContainer{
+    width: 80%;
+     border:3px solid red;
+    
+} 
+.row_1{
+    margin: 15px;
+    display: flex;
+    /* border:3px solid rgb(145, 77, 14); */
+}
+.row_1ProjectQuestion{
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex ;
+    /* border:2px solid rgb(28, 129, 168); */
+   
+
+}
+.row_1ProjectQuestion>.question{
+    margin:30px;
+    /* margin-left:19px; */
+    /* padding-top: 20px; */
+    color: rgb(59,143,194);
+
+}
+.create {
+    margin-left: 65%;
+    border-radius: 5px;
+    /* border:3px solid rgb(189, 5, 5); */
+    
+    padding-top: 27px;
+} 
+#projectCreate {
+   text-align: center;
+    border-radius: 5px;
+    
+} 
+
+a:link, a:visited {
+    background-color: rgb(59,143,194);
+    color: white;
+    /* padding: 0.9% 20%; */
+    justify-content: left;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+    text-align: center;
+  }
+  
+  a:hover, a:active {
+    background-color:rgb(59,143,194);
+  }
+
+
+.row_2{
+    display: flex;
+}
+.inputDropdown{
+    display: flex;
+    
+}
+.form-control{
+    width: 300px;
+    height: 35px;
+    margin-right: 30px;
+    text-align: center;
+   
+  
+ }
+
+
+
+
+
+.dropbtn {
+    background-color: white;
+    color: rgb(59,143,194);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(59,143,194);
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:  rgb(59,143,194);
+    color:white;
+  }
+  
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 150px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+
+  .row2_right{
+      display: flex;
+      margin-left: 45%;
+  }
+
+
+      
+.btn {
+    background-color: white;
+    color: rgb(59,143,194);
+    padding: 8px;
+    font-size: 13px;
+    border:none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+ 

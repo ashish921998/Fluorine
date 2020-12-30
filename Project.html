@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="projectIndex.css">
+   
+</head>
+<body>
+    <!-- creating main container of project -->
+
+
+    <div class="mainContainer" id="mainContainer">
+         <!-- row1-content pProject, Question-circle, and Add new project  -->
+        <div class="row_1">
+           <div class="row_1ProjectQuestion">
+               <div>
+                    <h1>Projects</h1>
+
+                </div>
+            <div class="question">
+                <i class="far fa-question-circle"> </i>     
+            </div>
+         </div>
+            <!-- <div class="row_1AddProj"> -->
+                  <div class="create">    
+                            <a  id="projectCreate" href="projectForm.html" >+ Add new project</a>      
+                  </div>
+                
+            <!-- <a class="btn" id="projectCreate" href="test.html"> + Add new project </a> -->
+            </div>
+      
+        
+
+        <!-- row2 input text content -->
+        <div class="row_2">
+            <div class="inputDropdown">
+                <div class="search">
+                    <input type="text" required placeholder="Search by Project or Client name"
+                    id="input" class="form-control">
+                </div>
+
+               
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">
+                         <i id="inbox" class="fas fa-inbox"> 
+
+                    </i>
+                &nbsp    Active </button>
+                    <div id="myDropdown" class="dropdown-content">
+                    
+                     
+                      <a href="#All">Custom</a>
+                      <a href="#Archieve">Support</a>
+                      <a href="#Active">Tools</a>
+                    </div>
+                  </div>
+            
+                </div>
+
+                <div class="row2_right">
+                 <div class="export">
+                    <button class="btn"> <i class="fas fa-download"> </i>&nbsp Export  </button>
+                  
+                </div>
+
+                <div class="group">
+                    <button class="btn" ><i class="fas fa-layer-group"></i>Group by:&nbsp None</i></button>
+                    
+                    </div>
+                </div>
+            </div>
+
+                <div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    
+
+   <script src="Project.js"></script>
+</body>
+</html>
