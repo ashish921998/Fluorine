@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - My hours</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/solid.css"
+      integrity="sha384-yo370P8tRI3EbMVcDU+ziwsS/s62yNv3tgdMqDSsRSILohhnOrDNl142Df8wuHA+"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/regular.css"
+      integrity="sha384-APzfePYec2VC7jyJSpgbPrqGZ365g49SgeW+7abV1GaUnDwW7dQIYFc+EuAuIx0c"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/fontawesome.css"
+      integrity="sha384-ijEtygNrZDKunAWYDdV3wAZWvTHSrGhdUfImfngIba35nhQ03lSNgfTJAKaGFjk2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div style="display: flex">
+      <div class="sidebarContainer">
+        <div class="sidebarHead">
+          <a class="mainLogo">
+            <img src="https://app.myhours.com/assets/myhours_logo_icon.svg" />
+          </a>
+          <a class="track" href="index.html">
+            <p><i class="fas fa-stopwatch"></i> Track</p>
+          </a>
+          <a class="track" href="project.html">
+            <p><i class="fas fa-briefcase"></i> Projects</p>
+          </a>
+          <a class="track" id="report">
+            <p
+              ><i class="far fa-chart-bar"></i> Reports
+              <i class="fas fa-chevron-down down1"></i
+            ></p>
+          </a>
+          <div class="reportsDiv" id="reportsDiv"></div>
+          <a class="track" id="client">
+            <p
+              ><i class="far fa-folder"></i> Clients
+              <i class="fas fa-chevron-down down2"></i
+            ></p>
+          </a>
+          <div class="clientDiv" id="clientDiv"></div>
+          <a class="track" id="team">
+            <p
+              ><i class="fas fa-users"></i>Team
+              <i class="fas fa-chevron-down down3"></i
+            ></p>
+          </a>
+          <div class="teamDiv" id="teamDiv"></div>
+        </div>
+        <div class="sidebarFoot">
+          <a class="track">
+            <p
+              ><i class="far fa-question-circle"></i>Help
+              <i style="font-size: 12px" class="fas fa-external-link-alt"></i
+            ></p>
+          </a>
+
+          <a class="track">
+            <p><i style="font-size: 16px" class="fas fa-mobile"></i>Apps</p>
+          </a>
+
+          <a class="track">
+            <p
+              ><i class="far fa-bell"></i>What's new
+              <i style="font-size: 12px" class="fas fa-external-link-alt"></i
+            ></p>
+          </a>
+
+          <a class="track">
+            <div class="user"
+              ><p><i class="far fa-user"></i> User</p>
+              <p>
+                <i style="padding-right: 40px" class="fas fa-chevron-up"></i></p
+            ></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="dashboardContainer">
+        <div class="dashboardHead">
+          <p
+            >Dashboard
+            <i
+              style="font-size: 22px; color: #3b8fc2; padding-left: 15px"
+              class="far fa-question-circle"
+            ></i
+          ></p>
+          <div>
+            <button
+              ><i class="fas fa-download"></i> Download
+              <i class="fas fa-caret-down"></i
+            ></button>
+          </div>
+        </div>
+        <div class="filters">
+          <button class="leftArrow" id="leftArrow"
+            ><i
+              style="font-size: 15px; padding: 5px 11px"
+              class="fas fa-arrow-left"
+            ></i
+          ></button>
+          <button class="calendar" id="calendar"
+            ><i class="fas fa-calendar-week"></i><span>Calender</span></button
+          >
+          <button class="rightArrow" id="rightArrow"
+            ><i class="fas fa-arrow-right"></i
+          ></button>
+          <button class="teamButton" id="teamButton"
+            ><i class="fas fa-users"></i> Team</button
+          >
+          <button class="clientsButton" id="clientsButton"
+            ><i class="far fa-folder"></i> Clients</button
+          >
+          <button class="projectsButton" id="projectsButton"
+            ><i class="fas fa-briefcase"></i> Projects</button
+          >
+          <button class="tasksButton" id="tasksButton"
+            ><i class="fas fa-check"></i>Tasks</button
+          >
+        </div>
+        <hr style="margin: 10px 22px" />
+        <div class="dashboardData">
+          <div class="amountSummary">
+            <h4 class="reportSummary">
+              <span class="fontWeight600">0</span>
+              <span class="fontWeight400">hours</span>
+              <span class="dotSeperator"></span>
+              <span class="fontWeight600">0%</span>
+              <span class="fontWeight400">billable hours</span>
+              <span class="dotSeperator"></span>
+              <span class="fontWeight600">₹0</span>
+              <span class="fontWeight400">billable amount</span>
+            </h4>
+            <button
+              ><i class="fas fa-layer-group"></i><span>Sum by:</span
+              ><span>Project </span><i class="fas fa-caret-down"></i
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="dashboard.js"></script>
+  </body>
+</html>

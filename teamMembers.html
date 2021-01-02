@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Members - Myhours</title>
+    <link rel="stylesheet" href="teamMembers.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/solid.css" integrity="sha384-yo370P8tRI3EbMVcDU+ziwsS/s62yNv3tgdMqDSsRSILohhnOrDNl142Df8wuHA+" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/regular.css" integrity="sha384-APzfePYec2VC7jyJSpgbPrqGZ365g49SgeW+7abV1GaUnDwW7dQIYFc+EuAuIx0c" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/fontawesome.css" integrity="sha384-ijEtygNrZDKunAWYDdV3wAZWvTHSrGhdUfImfngIba35nhQ03lSNgfTJAKaGFjk2" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div style="display: flex;">
+        <div class="sidebarContainer">
+            <div class="sidebarHead">
+                <a class="mainLogo">
+                    <img src="https://app.myhours.com/assets/myhours_logo_icon.svg">
+                </a>
+                <a class="track">
+                    <p><i  class="fas fa-stopwatch"></i> Track</p>
+                </a>
+                <a class="track">
+                    <p><i class="fas fa-briefcase"></i> Projects</p>
+                </a>
+                <a class="track" id="report">
+                    <p><i class="far fa-chart-bar"></i> Reports <i class="fas fa-chevron-down down1"></i></p>
+                </a>
+                <div class="reportsDiv" id="reportsDiv"></div>
+                    <a class="track" id="client">
+                        <p><i class="far fa-folder"></i> Clients <i class="fas fa-chevron-down down2"></i></p>
+                    </a>
+                <div class="clientDiv" id="clientDiv"></div>
+                    <a class="track" id="team">
+                        <p><i class="fas fa-users"></i>Team <i class="fas fa-chevron-down down3"></i></p>
+                    </a>
+                <div class="teamDiv" id="teamDiv"></div>
+            </div>
+            <div class="sidebarFoot">
+                <a class="track">
+                    <p><i class="far fa-question-circle"></i>Help <i style="font-size: 12px;" class="fas fa-external-link-alt"></i></p>
+                </a>
+        
+                <a class="track">
+                    <p><i style="font-size:16px" class="fas fa-mobile"></i>Apps</p>
+                </a>
+        
+                <a class="track">
+                    <p><i class="far fa-bell"></i>What's new <i style="font-size: 12px;" class="fas fa-external-link-alt"></i></p>
+                </a>
+        
+                <a class="track">
+                    <div class="user"><p><i class="far fa-user"></i> User</p> <p> <i style="padding-right:40px;" class="fas fa-chevron-up"></i></p></div>
+                </a>
+            </div>
+        </div>
+        <div class="teamMembersContainer">
+            <div class="teamMembersHead">
+                <p>Team Members <i style="font-size: 22px; color: #3B8FC2;padding-left: 15px;" class="far fa-question-circle"></i></p>
+                <div>
+                     <button class="addNewTeamMate" id="addNewTeamMate"><i class="fas fa-plus"></i> New Team Member </button>
+                     <div class="simpleModal" id="simpleModal">
+                         <div class="modalContent">
+                            <div class="newTeamMate" >
+                                <p>Add Team Member <i style="font-size: 22px; color: #3B8FC2;padding-left: 15px;" class="far fa-question-circle"></i></p>
+                                <div class="inputGroup">
+                                <div class="inputName">
+                                    <label>NAME</label>
+                                    <input text="" />
+                                </div>    
+                                <div class="inputEmail">
+                                    <label>EMAIL</label>
+                                    <input text="" />
+                                </div>  
+                                <div class="hr"></div>
+                                <div class="inputHourlyRate">
+                                    <label>HOURLY RATE</label>
+                                    <input text="" />
+                                </div>
+                                <div class="hr"></div>
+                                <div class="adminCheck">
+                                    <input type="checkbox" />
+                                    <label>Adminstrator</label>
+                                </div>
+                                <div class="managerCheck">
+                                    <input type="checkbox" />
+                                    <label>Project Manager</label>
+                                </div>
+                                <div class="teamMateCheck">
+                                    <input type="checkbox" />
+                                    <label>Admin must approve time log for this team member</label>
+                                </div>
+                                <div class="approvalButtons">
+                                    <button class="saveButton">Save</button>
+                                    <button class="cancelButton" id="cancelButton">Cancel</button>
+                                </div>
+                            </div>      
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+            <div class="teamBody">
+                <div class="searchTeamMate">
+                    <input type="text" placeholder="Search by Team member name"/>
+                    <button class="statusButton"> <i class="fas fa-inbox"></i> Status</button>
+                </div>
+                <div class="downloadButtonDiv">
+                    <button><i class="fas fa-download"></i></button>
+                </div>
+            </div>
+            <hr style="margin: 2px 22px;" />
+    </div>
+    <script src="index.js"></script>
+    <script src="teamMembers.js"></script>
+</body>
+</html>

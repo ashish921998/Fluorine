@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body>
+    <div class="mainFlex">
+      <div class="sidebarContainer">
+        <div class="sidebarHead">
+          <a class="mainLogo">
+            <img src="https://app.myhours.com/assets/myhours_logo_icon.svg" />
+          </a>
+          <a class="track" href="index.html">
+            <p><i class="fas fa-stopwatch"></i> Track</p>
+          </a>
+          <a class="track" href="project.html">
+            <p><i class="fas fa-briefcase"></i> Projects</p>
+          </a>
+          <a class="track" id="report">
+            <p
+              ><i class="far fa-chart-bar"></i> Reports
+              <i class="fas fa-chevron-down down1"></i
+            ></p>
+          </a>
+          <div class="reportsDiv" id="reportsDiv"></div>
+          <a class="track" id="client">
+            <p
+              ><i class="far fa-folder"></i> Clients
+              <i class="fas fa-chevron-down down2"></i
+            ></p>
+          </a>
+          <div class="clientDiv" id="clientDiv"></div>
+          <a class="track" id="team">
+            <p
+              ><i class="fas fa-users"></i>Team
+              <i class="fas fa-chevron-down down3"></i
+            ></p>
+          </a>
+          <div class="teamDiv" id="teamDiv"></div>
+        </div>
+        <div class="sidebarFoot">
+          <a class="track">
+            <p
+              ><i class="far fa-question-circle"></i>Help
+              <i style="font-size: 12px" class="fas fa-external-link-alt"></i
+            ></p>
+          </a>
+
+          <a class="track">
+            <p><i style="font-size: 16px" class="fas fa-mobile"></i>Apps</p>
+          </a>
+
+          <a class="track">
+            <p
+              ><i class="far fa-bell"></i>What's new
+              <i style="font-size: 12px" class="fas fa-external-link-alt"></i
+            ></p>
+          </a>
+
+          <a class="track">
+            <div class="user"
+              ><p><i class="far fa-user"></i> User</p>
+              <p>
+                <i style="padding-right: 40px" class="fas fa-chevron-up"></i></p
+            ></div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Second Flex -->
+      <div class="profile">
+        <div class="flex">
+          <h1 id="name"></h1>
+          <p id="cliname"></p>
+          <a class="addTeam" href="addteam.html">Add/remove members</a>
+          <div class="ash">A</div>
+          <a href="activity.html" class="icon"
+            ><i class="far fa-chart-bar"></i
+          ></a>
+          <button class="icon" id="opt"><i class="fas fa-ellipsis-h "></i></button>
+
+          <div class="options">
+              <a></a>
+              <a></a>
+              <a></a>
+              <a href="project.html">Delete</a>
+
+          </div>
+        </div>
+
+        <div class="lastFlex">
+          <button class="newList" id="newList"
+            ><i class="fas fa-plus"></i>New Task List</button
+          >
+          <button class="newList" id="taskTemp"
+            ><i class="far fa-clone"></i>Task templates</button
+          >
+          <div class="modal" id="modal">
+            <div class="fle">
+              <h2>Task templates</h2>
+              <button id="close" class="clo">x</button>
+            </div>
+            <h3
+              >Add tasks from a list of task templates. Create or update task
+              template on the Account > Task templates page.</h3
+            >
+            <input type="text" />
+
+            <button id="cancel" class="cancel">Cancel</button>
+            <button id="addTask" class="addTask">Add Selected task</button>
+          </div>
+
+          <div class="card">
+            <div class="flex1">
+              <div class="box">
+                <h3>Total Hours</h3>
+                <h2>0 H</h2>
+              </div>
+              <div class="box">
+                <h3>Billable Amount</h3>
+                <h2>$ 0</h2>
+              </div>
+            </div>
+
+            <div class="flex1">
+              <div class="box">
+                <h3>Billable Hours</h3>
+                <h2>0 H</h2>
+              </div>
+              <div class="box">
+                <h3>Costs</h3>
+                <h2>$ 0</h2>
+              </div>
+            </div>
+
+            <a href="addBudget.html">Add budget</a>
+
+            <hr />
+            <h4 id="descript"></h4>
+            <hr />
+
+            <p>
+              Project was created on Thu, <strong id="day"></strong> . It
+              includes 0 tasks and 0 time logs in total.
+            </p>
+
+            <p>
+              Hours are not rounded and not billed. Approvals are not required .
+            </p>
+
+            <a href="edit.html" class="edit">Edit Settings</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="profile.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

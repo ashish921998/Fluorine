@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tracks</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="secondFlex">
+      <div class="date_container">
+        <h1 id="date"></h1>
+        <i class="fas fa-calendar-day"></i>
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-arrow-right"></i>
+        <div class="startBtn" id="startBtn"
+          ><button id="btn1" class="btn1">
+            <i class="fas fa-stopwatch"></i>
+            Start
+          </button>
+          <!-- <button id="stop"></button> --></div
+        >
+
+        <h2 id="h1">00:00:00</h2>
+      </div>
+
+      <div class="logs" id="logs">
+        <button class="addLog" id="addLog"
+          ><i class="fas fa-plus"></i>Add time log</button
+        >
+        <button id="list" class="list"
+          ><i class="fas fa-ellipsis-h"></i
+        ></button>
+        <button id="timeline" class="timeline"
+          ><i class="fas fa-bars"></i>Timeline</button
+        >
+        <button id="favourite" class="favourite"
+          ><i class="far fa-star"></i>Favourite logs</button
+        >
+      </div>
+
+      <div id="addNew"> </div>
+
+      <hr />
+
+      <h3 id="task"
+        >No time tracked for this day.
+        <a class="start">Start a new time log</a></h3
+      >
+    </div>
+
+
+    <script src="tracks.js"></script>
+  </body>
+</html>

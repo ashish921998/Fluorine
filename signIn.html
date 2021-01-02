@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css" />
+  </head>
+  <body>
+    <div id="sign_Container">
+      <a href="">
+        <img
+          src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fd37c83dfa3ccb0d2d9836f_myhours-logo.svg"
+          width="158"
+          alt="My Hours Logo "
+      /></a>
+      <div class="form-group">
+        <h3 class="mt-4 mb-3">Sign in</h3>
+      </div>
+      <form id="login-form">
+        <input
+          type="email"
+          placeholder="Enter Email"
+          value=""
+          id="email"
+        /><br />
+        <input
+          id="userPw"
+          type="password"
+          placeholder="Enter Password"
+          value=""
+        /><br />
+        <input id="login_btn" type="submit" value="Login" onClick="check()" />
+      </form>
+    </div>
+    <script type="text/javascript">
+      function check() {
+        // stored data from the register-form
+
+        var storedName = localStorage.getItem("name_1");
+        var storedPw = localStorage.getItem("pw");
+        var storedEmail = localStorage.getItem("email");
+
+        // entered data from the login-form
+
+        var userEmail = document.getElementById("email");
+        var userPw = document.getElementById("userPw");
+
+        // check if stored data from register-form is equal to data from login form
+
+        if (userEmail.value === storedEmail && userPw.value === storedPw) {
+          alert("You are logged in");
+        } else {
+          alert("Wrong email or Password");
+        }
+      }
+    </script>
+  </body>
+</html>

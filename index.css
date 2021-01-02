@@ -1,0 +1,330 @@
+.html {
+  font-size: 10px;
+  font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  padding: 0px;
+  margin: 0px;
+}
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  height: 100vh;
+  min-width: 200px;
+  font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  border-right: 1px solid lightgray;
+  justify-content: space-between;
+}
+.sidebarHead {
+  display: flex;
+  flex-direction: column;
+}
+.mainLogo img {
+  margin: 6px;
+  padding: 25px 20px;
+  width: 65%;
+}
+
+.sidebarHead i .track i {
+  padding: 0px 12px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+a .down1 {
+  padding-left: 60px;
+}
+
+a .down2 {
+  padding-left: 67px;
+}
+
+a .down3 {
+  padding-left: 76px;
+}
+
+.track {
+  padding: 0;
+  margin: 0 !important;
+  font-size: 14px !important;
+}
+
+.track:hover {
+  color: #3b8fc2;
+  opacity: 70;
+  background-color: #dbe4ea;
+  border-left: 4px solid #3b8fc2;
+  cursor: pointer;
+}
+.reportsDiv {
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid #3b8fc2;
+}
+.reportsDiv a {
+  padding: 7px 36px;
+  font-size: 12px;
+  color: #343a40;
+  cursor: pointer;
+  border-left: 1px solid #3b8fc2;
+}
+.reportsDiv a:hover {
+  color: black;
+}
+
+.clientDiv {
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid #3b8fc2;
+}
+#clientDiv a {
+  padding: 7px 36px !important;
+  font-size: 12px;
+  color: #343a40;
+  cursor: pointer;
+  border-left: 1px solid #3b8fc2;
+}
+.clientDiv a:hover {
+  color: black;
+}
+
+#teamDiv {
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid #3b8fc2;
+}
+#teamDiv a {
+  padding: 7px 36px !important;
+  font-size: 12px;
+  color: #343a40;
+  cursor: pointer;
+  border-left: 1px solid #3b8fc2;
+}
+.teamDiv a:hover {
+  color: black;
+}
+
+.sidebarFoot {
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainFlex {
+  display: flex;
+}
+
+/* Second flex */
+.date_container {
+  display: flex;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: rgb(41, 186, 96);
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  margin-top: 6%;
+  margin-left: 50%;
+}
+
+.startBtn {
+  width: 200px;
+  text-align: right;
+}
+
+.date_container :hover {
+  cursor: pointer;
+}
+
+.date_container h2 {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.addLog {
+  width: 200px;
+  height: 40px;
+  margin-right: 37%;
+  font-size: large;
+}
+
+.logs :hover {
+  background-color: rgb(68, 152, 201);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logs {
+  display: flex;
+}
+
+.logs button {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.list {
+  margin-right: 0.2%;
+  width: 50px;
+}
+
+.timeline {
+  margin: 0% 0.5%;
+  width: 90px;
+}
+
+.favourite {
+  margin: 0% 0.5%;
+}
+
+.start {
+  color: rgb(68, 152, 201);
+}
+
+.start :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.startBtn {
+  display: flex;
+  width: 400px;
+}
+
+.stop {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: red;
+  font-size: large;
+  border: 1px solid red;
+  margin-left: 10%;
+  margin-top: 25%;
+}
+
+.flex {
+  display: flex;
+}
+
+.close {
+  height: 40px;
+  width: 40px;
+  margin: 3% 5% 2% 58%;
+}
+
+.close :hover {
+  border: 2px solid grey;
+  cursor: pointer;
+}
+
+.addT {
+  margin: 0% 0% 2% 2%;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(68, 152, 201);
+}
+
+.cancel {
+  margin: 0% 0% 2% 2%;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(149, 205, 238);
+}
+
+/* input,
+label {
+  display: block;
+} */
+
+.bigInp {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.flex2 {
+  display: flex;
+  position: relative;
+  margin: 2% 2% 2% 1%;
+}
+
+.text {
+  margin: 1%;
+}
+
+.tag {
+  margin: 1%;
+  width: 39%;
+  height: 30px;
+}
+
+.timeLog {
+  background-color: aliceblue;
+  width: 85%;
+}
+
+.duration {
+  width: 20%;
+  height: 30px;
+}
+
+.flex3 {
+  display: flex;
+}
+
+.num {
+  width: 10%;
+  height: 30px;
+  margin: 3% 2%;
+}
+
+.exp {
+  width: 30%;
+  height: 30px;
+  margin-top: 1%;
+}
+
+.fl {
+  display: flex;
+  margin-top: 3%;
+}
+
+.mainFlex {
+  display: flex;
+}
+
+.secondFlex {
+  width: 60%;
+  margin: 0px auto;
+}
+
+.sh {
+  margin: 4% 2%;
+}
+
+.newadd {
+  display: flex;
+}
+
+.newadd h3 {
+  margin: 2% 2%;
+  width: 100px;
+}
+
+.datepick {
+  width: 35px;
+  height: 30px;
+  margin: 2% 0.5%;
+}
