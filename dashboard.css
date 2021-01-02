@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.dashboardContainer {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardHead button{
+    background-color: #3B8FC2;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button i {
+    padding-left: 3px !important;
+}
+
+.dashboardHead p {
+    font-size: 38px;
+    font-weight: 600;
+    padding: 0 !important;
+    margin: 18px 22px!important;
+}
+.dashboardHead {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 !important;
+}
+.dashboardHead button {
+    margin: 15px 22px;
+}
+.leftArrow {
+    padding-right: 2px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-right: 0px !important;
+    cursor: pointer;
+    font-size: 14px;
+    color: #375D75;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.calendar {
+    margin-left: 0px !important;
+    cursor: pointer;
+    padding-right: 13px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #375D75;
+    padding: 4px 22px;
+}
+
+.rightArrow {
+    margin-left: 0px !important;
+    cursor: pointer;
+    padding-right: 2px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #375D75;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.filters {
+    margin: 10px 22px;
+}
+.teamButton {
+    margin-left: 23px !important;
+}
+.teamButton,.projectsButton,.clientsButton,.tasksButton{
+    margin: 0px 12px;
+    cursor: pointer;
+    padding: 4px 22px;
+    color: #375D75;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+button i {
+    font-size: 15px;
+    padding: 5px 11px;
+}
+
+.reportSummary {
+    color: #687481;
+    font-size: 23px;
+    margin: 27px 22px;
+
+}
+
+.fontWeight600 {
+    font-weight: 600;
+}
+.fontWeight400 {
+    font-weight: 400;
+}
+
+.dotSeperator {
+    margin: 4px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #E2E6EA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.amountSummary {
+    display: flex;
+    justify-content: space-between;
+}
+.amountSummary button {
+    margin: 25px 22px !important;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color:  #375D75;
+    border-radius: 3px;
+}
+

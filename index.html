@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Hours</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="mainFlex">
+      <div class="sidebarContainer">
+        <div class="sidebarHead">
+          <a class="mainLogo">
+            <img src="https://app.myhours.com/assets/myhours_logo_icon.svg" />
+          </a>
+          <a class="track" href="index.html">
+            <p><i class="fas fa-stopwatch"></i> Track</p>
+          </a>
+          <a class="track" href="project.html">
+            <p><i class="fas fa-briefcase"></i> Projects</p>
+          </a>
+          <a class="track" id="report">
+            <p
+              ><i class="far fa-chart-bar"></i> Reports
+              <i class="fas fa-chevron-down down1"></i
+            ></p>
+          </a>
+          <div class="reportsDiv" id="reportsDiv"></div>
+          <a class="track" id="client">
+            <p
+              ><i class="far fa-folder"></i> Clients
+              <i class="fas fa-chevron-down down2"></i
+            ></p>
+          </a>
+          <div class="clientDiv" id="clientDiv"></div>
+          <a class="track" id="team">
+            <p
+              ><i class="fas fa-users"></i>Team
+              <i class="fas fa-chevron-down down3"></i
+            ></p>
+          </a>
+          <div class="teamDiv" id="teamDiv"></div>
+        </div>
+        <div class="sidebarFoot">
+          <a class="track">
+            <p
+              ><i class="far fa-question-circle"></i>Help
+              <i style="font-size: 12px" class="fas fa-external-link-alt"></i
+            ></p>
+          </a>
+
+          <a class="track">
+            <p><i style="font-size: 16px" class="fas fa-mobile"></i>Apps</p>
+          </a>
+
+          <a class="track">
+            <p
+              ><i class="far fa-bell"></i>What's new
+              <i style="font-size: 12px" class="fas fa-external-link-alt"></i
+            ></p>
+          </a>
+
+          <a class="track">
+            <div class="user"
+              ><p><i class="far fa-user"></i> User</p>
+              <p>
+                <i style="padding-right: 40px" class="fas fa-chevron-up"></i></p
+            ></div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Second Flex -->
+
+      <div class="secondFlex">
+        <div class="date_container">
+          <div id="date"></div>
+          <input class="datepick" type="date" id="datepick" value="22   " />
+          <i class="fas fa-arrow-left sh" id="preDay"></i>
+          <i class="fas fa-arrow-right sh" id="nextDay"></i>
+          <div class="startBtn" id="startBtn"
+            ><button id="btn1" class="btn1">
+              <i class="fas fa-stopwatch"></i>
+              Start
+            </button>
+            <div id="stop1"> </div>
+          </div>
+
+          <h2 id="h1">00:00:00</h2>
+        </div>
+
+        <div class="logs" id="logs">
+          <button class="addLog" id="addLog"
+            ><i class="fas fa-plus"></i>Add time log</button
+          >
+          <button id="list" class="list"
+            ><i class="fas fa-ellipsis-h"></i
+          ></button>
+          <button id="timeline" class="timeline"
+            ><i class="fas fa-bars"></i>Timeline</button
+          >
+          <button id="favourite" class="favourite"
+            ><i class="far fa-star"></i>Favourite logs</button
+          >
+        </div>
+
+        <div id="addNew"> </div>
+
+        <hr />
+
+        <h3 id="task"
+          >No time tracked for this day.
+          <a class="start">Start a new time log</a></h3
+        >
+
+        <div id="newadd"> </div>
+        <div id="added"> </div>
+      </div>
+    </div>
+
+    <script src="tracks.js"></script>
+    <script src="index.js"></script>
+    <script src="project.js"></script>
+    <script src="profile.js"></script>
+    <script src="add.js"></script>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+.mainFlex {
+  display: flex;
+}
+.html {
+  font-size: 10px;
+  font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  padding: 0px;
+  margin: 0px;
+}
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  height: 100vh;
+  min-width: 200px;
+  font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  border-right: 1px solid lightgray;
+  justify-content: space-between;
+}
+.sidebarHead {
+  display: flex;
+  flex-direction: column;
+}
+.mainLogo img {
+  margin: 6px;
+  padding: 25px 20px;
+  width: 65%;
+}
+
+i {
+  padding: 0px 12px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+a .down1 {
+  padding-left: 60px;
+}
+
+a .down2 {
+  padding-left: 67px;
+}
+
+a .down3 {
+  padding-left: 76px;
+}
+
+.track {
+  padding: 0;
+  margin: 0 !important;
+  font-size: 14px !important;
+}
+
+.track:hover {
+  color: #3b8fc2;
+  opacity: 70;
+  background-color: #dbe4ea;
+  border-left: 4px solid #3b8fc2;
+  cursor: pointer;
+}
+.reportsDiv {
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid #3b8fc2;
+}
+.reportsDiv a {
+  padding: 7px 36px;
+  font-size: 12px;
+  color: #343a40;
+  cursor: pointer;
+  border-left: 1px solid #3b8fc2;
+}
+.reportsDiv a:hover {
+  color: black;
+}
+
+.clientDiv {
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid #3b8fc2;
+}
+#clientDiv a {
+  padding: 7px 36px !important;
+  font-size: 12px;
+  color: #343a40;
+  cursor: pointer;
+  border-left: 1px solid #3b8fc2;
+}
+.clientDiv a:hover {
+  color: black;
+}
+
+#teamDiv {
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid #3b8fc2;
+}
+#teamDiv a {
+  padding: 7px 36px !important;
+  font-size: 12px;
+  color: #343a40;
+  cursor: pointer;
+  border-left: 1px solid #3b8fc2;
+}
+.teamDiv a:hover {
+  color: black;
+}
+
+.sidebarFoot {
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addProject {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 35%;
+}
+
+.bill {
+  width: 200px;
+  height: 40px;
+  font-size: large;
+  margin: 2% 0%;
+}
+
+.addProject input {
+  height: 40px;
+  margin: 2% 0%;
+}
+
+.save {
+  background-color: rgb(68, 152, 201);
+  color: white;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+}

@@ -1,0 +1,186 @@
+.date_container {
+  display: flex;
+  cursor: pointer;
+}
+
+.date_container i {
+  margin: 2%;
+}
+
+.btn1 {
+  background-color: rgb(41, 186, 96);
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  margin-top: 6%;
+  margin-left: 50%;
+}
+
+.startBtn {
+  width: 250px;
+  text-align: right;
+}
+
+.date_container :hover {
+  cursor: pointer;
+}
+
+.date_container h2 {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.addLog {
+  width: 150px;
+  height: 40px;
+  margin-right: 37%;
+  font-size: large;
+}
+
+.logs :hover {
+  background-color: rgb(68, 152, 201);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fas {
+  margin: 1% 5%;
+}
+
+.logs {
+  display: flex;
+}
+
+.logs button {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.list {
+  margin-right: 0.2%;
+  width: 50px;
+}
+
+.timeline {
+  margin: 0% 0.5%;
+  width: 90px;
+}
+
+.favourite {
+  margin: 0% 0.5%;
+}
+
+.start {
+  color: rgb(68, 152, 201);
+}
+
+.start :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.startBtn {
+  display: flex;
+  width: 400px;
+}
+
+.stop {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: red;
+  font-size: large;
+  border: 1px solid red;
+  margin-left: 80%;
+  margin-top: 6%;
+}
+
+.flex {
+  display: flex;
+}
+
+.close {
+  height: 40px;
+  width: 40px;
+  margin: 1% 5% 2% 60%;
+  background-color: white;
+}
+
+.addT {
+  margin: 0% 0% 2% 2%;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(68, 152, 201);
+}
+
+.cancel {
+  margin: 0% 0% 2% 2%;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(149, 205, 238);
+}
+
+.fa-briefcase {
+  position: absolute;
+  left: 10px;
+}
+
+input,
+label {
+  display: block;
+}
+
+.bigInp {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.flex2 {
+  display: flex;
+  position: relative;
+  margin: 2% 2% 2% 1%;
+}
+
+.text {
+  margin: 1%;
+}
+
+.tag {
+  margin: 1%;
+  width: 39%;
+  height: 30px;
+}
+
+.timeLog {
+  background-color: aliceblue;
+  width: 60%;
+}
+
+.duration {
+  width: 20%;
+  height: 30px;
+}
+
+.flex3 {
+  display: flex;
+}
+
+.num {
+  width: 10%;
+  height: 30px;
+  margin: 3% 2%;
+}
+
+.exp {
+  width: 30%;
+  height: 30px;
+  margin-top: 1%;
+}
+
+.fl {
+  display: flex;
+  margin-top: 3%;
+}

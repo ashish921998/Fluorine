@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: rgb(238, 232, 232);
+}
+
+
+input[type=text], input[type=password], input[type=email] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 70%;
+    background-color: #ddd;
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+#sign_Container{
+    padding-top: 40px;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    background: rgb(255,255,255);
+    box-shadow:  41px 41px 82px #818283, 
+             -41px -41px 82px #e4e6e6;
+     align-items: center;
+     margin: auto;
+    text-align: left;
+   padding-left: 140px;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.heading{
+    text-align: left;
+   
+}
+.pro {
+    color: #999999 !important;
+}
+h6{
+    color: #999999 !important;
+    font-size: 15px;
+}
+h5, .h5 {
+    font-size: 1.25rem;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+#rgstr_btn{
+     
+        background-color:rgb(59,143,194);
+        padding: 13px 70px;
+        
+        font-size: 20px;
+        line-height: 21px;
+        font-weight: 500;
+        color: white;
+        border: 1px solid rgb(59,143,194);
+        border-radius: 5px;
+        margin:auto;
+        text-align: center;
+        display: block;
+        margin-bottom: 50px;
+        margin-right: 130px;
+    
+}

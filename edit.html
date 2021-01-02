@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="addproject.css" />
+  </head>
+  <body>
+    <div class="mainFlex">
+      <div class="sidebarContainer">
+        <div class="sidebarHead">
+          <a class="mainLogo">
+            <img src="https://app.myhours.com/assets/myhours_logo_icon.svg" />
+          </a>
+          <a class="track">
+            <p><i class="fas fa-stopwatch"></i> Track</p>
+          </a>
+          <a class="track">
+            <p><i class="fas fa-briefcase"></i> Projects</p>
+          </a>
+          <a class="track" id="report">
+            <p
+              ><i class="far fa-chart-bar"></i> Reports
+              <i class="fas fa-chevron-down down1"></i
+            ></p>
+          </a>
+          <div class="reportsDiv" id="reportsDiv"></div>
+          <a class="track" id="client">
+            <p
+              ><i class="far fa-folder"></i> Clients
+              <i class="fas fa-chevron-down down2"></i
+            ></p>
+          </a>
+          <div class="clientDiv" id="clientDiv"></div>
+          <a class="track" id="team">
+            <p
+              ><i class="fas fa-users"></i>Team
+              <i class="fas fa-chevron-down down3"></i
+            ></p>
+          </a>
+          <div class="teamDiv" id="teamDiv"></div>
+        </div>
+        <div class="sidebarFoot">
+          <a class="track">
+            <p
+              ><i class="far fa-question-circle"></i>Help
+              <i style="font-size: 12px" class="fas fa-external-link-alt"></i
+            ></p>
+          </a>
+
+          <a class="track">
+            <p><i style="font-size: 16px" class="fas fa-mobile"></i>Apps</p>
+          </a>
+
+          <a class="track">
+            <p
+              ><i class="far fa-bell"></i>What's new
+              <i style="font-size: 12px" class="fas fa-external-link-alt"></i
+            ></p>
+          </a>
+
+          <a class="track">
+            <div class="user"
+              ><p><i class="far fa-user"></i> User</p>
+              <p>
+                <i style="padding-right: 40px" class="fas fa-chevron-up"></i></p
+            ></div>
+          </a>
+        </div>
+      </div>
+
+      <!-- second Flex -->
+
+      <div class="addProject">
+        <h1>Edit Project</h1>
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Entername of the project" />
+        <label for="client">Client</label>
+        <input type="text" name="name" placeholder="Entername of the project" />
+        <label for="txt">Description</label>
+        <textarea rows="5" cols="33" name="txt"></textarea>
+
+        <div class="bill">
+          <label for="bill">Billable Settings</label>
+          <select name="bill">
+            <option selected> Not Billable </option>
+            <option>billable: Project Rate</option>
+            <option>Billable: task based rate</option>
+            <option>Billable: Member based rate</option>
+          </select>
+        </div>
+
+        <div class="approv">
+          <h3>Approval Settings</h3>
+          <p>Approval is not required </p>
+        </div>
+
+        <div class="btns">
+          <a class="save" href="profile.html" id="save">Save</a>
+          <a class="cancel" href="project.html">Cancel</a>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="edit.js"></script>
+  </body>
+</html>

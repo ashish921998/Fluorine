@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.taskContainer {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.taskHead #button1{
+    background-color: #3B8FC2;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#button1 i {
+    padding-left: 3px !important;
+}
+
+.taskHead p {
+    font-size: 38px;
+    font-weight: 600;
+    padding: 0 !important;
+    margin: 18px 22px!important;
+}
+.taskHead {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 !important;
+}
+.taskHead #button1 {
+    margin: 15px 22px;
+}
+.leftArrow {
+    padding-right: 2px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-right: 0px !important;
+    cursor: pointer;
+    font-size: 16px;
+    color: #375D75;
+    padding-top: 6px;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+.calendar {
+    margin-left: 0px !important;
+    cursor: pointer;
+    padding-right: 13px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #375D75;
+    padding: 6px 22px;
+}
+
+.rightArrow {
+    margin-left: 0px !important;
+    cursor: pointer;
+    padding-right: 2px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #375D75;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.filters {
+    margin: 10px 22px;
+}
+.button2 i {
+    font-size: 14px;
+    padding: 5px 11px;
+}
+.searchTask {
+    margin-top: 10px;
+    padding: 11px 17px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-right: 17px;
+}
