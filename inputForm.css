@@ -73,3 +73,11 @@
 .form-style-1 .required{
 	color:red;
 }
+
+#btn-1{
+	float:right;
+	display: block;
+	margin-right: 40px;
+	align-items: right;
+	text-align: right;
+  }

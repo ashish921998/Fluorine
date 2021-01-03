@@ -69,10 +69,6 @@ a:link, a:visited {
   
  }
 
-
-
-
-
 .dropbtn {
     background-color: white;
     color: rgb(59,143,194);
@@ -126,12 +122,17 @@ a:link, a:visited {
 
       
 .btn {
-    background-color: white;
+  background-color: #dceefa;
+    border-color: #dceefa;
     color: rgb(59,143,194);
     padding: 8px;
     font-size: 13px;
     border:none;
     cursor: pointer;
     border-radius: 4px;
+    align-items: center;
+    margin:auto;
+    text-align: center;
+    display: inline block;
   }
  

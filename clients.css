@@ -55,7 +55,6 @@ a:link, a:visited {
 .row_2{
     display: flex;
     margin: 15px;
-    /* border:3px solid rgb(5, 189, 180); */
 }
 .inputDropdown{
     display: flex;
@@ -76,7 +75,7 @@ a:link, a:visited {
     padding: 10px;
     font-size: 16px;
     border: 1px solid rgb(59,143,194);
-    cursor: pointer;
+    /* cursor: pointer; */
     border-radius: 4px;
   }
   
