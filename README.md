@@ -1,4 +1,4 @@
-# Fluorine
+#  Clone of myhour
 myhours website helps people in coordinating projects and tasks. Track their work hours and create awesome-looking reports for clients all in one tracking software.
 
  ## Tech Stacks Used:
