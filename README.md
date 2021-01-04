@@ -7,8 +7,8 @@ myhours website helps people in coordinating projects and tasks. Track their wor
 - **CSS**
 - **JavaScript**
 
-### Index Page:
-- Overview of the landing page- The application has a Sign-up page, login page, and home page.
+### Landing Page:
+-  The application has a Sign-up page, login page, and home page.
 - Home page: This page has no. of featured. But the main purpose of this page is to help users to log in the time details, by entering the project, time, and task details.
 The data used for sign-in and time log is saved in the local storage.. Showcased with the help of screenshot.
 ### Landing Page
