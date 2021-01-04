@@ -26,9 +26,3 @@ The data used for sign-in and time log is saved in the local storage.. Showcased
 ### Admin Page:
   <img width="929" alt="Project page" src="https://github.com/ashish921998/Fluorine/blob/master/assests/Admin_panel.jpg?raw=true">
 
-  **Rohit Kumar**
-
-- Github: [@rohitkumar61](https://github.com/rohitkumar61)
-- Twitter: [@RohitKu72829383](https://twitter.com/RohitKu72829383)
-- Linkedin: [Rohit Kumar](https://www.linkedin.com/in/rohit-kumar-9175aa128/)
-- Email: (rohitagile@gmail.com)
